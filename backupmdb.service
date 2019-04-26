@@ -1,0 +1,6 @@
+[Unit]
+Description=Back up all MariaDB databases
+
+[Service]
+Type=oneshot
+ExecStart=/bin/bash /opt/backupmdb/backupmdb.sh
